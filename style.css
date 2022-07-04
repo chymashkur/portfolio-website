@@ -1,0 +1,85 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0px;
+}
+
+.top-background {
+    background-image: url(/img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.mid-background {
+    background-image: url(img/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+.button-linki {
+    margin-bottom: 60px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.expreance-itme {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 40px;
+    border-radius: 10px;
+
+
+
+}
+
+.expreance-area {
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.left-box {
+    border-left: 25px solid #f0755d;
+}
+
+.right-box {
+    border-left: 25px solid blue;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
